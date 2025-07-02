@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 976px;
+    --color-primary: #1d1d1d;
+    --color-secondary: #5C5C5C;
+    --color-gray-dark: #DFDFDF;
+    --color-gray-light: #F8F8F8;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    color: #1d1d1d;
+}
+
+.h-xlg {
+    /*h1*/
+    @apply text-lg capitalize;
+}
+
+.h-lg {
+    /*h2*/
+    @apply text-lg capitalize;
+}
+
+.h-md {
+    /*h3*/
+    @apply text-lg;
+}
+
+.h-sm {
+    /*h4*/
+    @apply text-sm;
+}
+
+.h-xsm {
+    /*h5*/
+    @apply text-sm;
+}
+
+.btn {
+    @apply py-2 px-5 border-1 border-primary rounded-4xl capitalize;
+}
+
+.btn:hover {
+    @apply bg-primary text-white;
+}
+
+@media (min-width: 480px) {
+    .h-xlg {
+        /*h1*/
+        @apply text-2xl;
+    }
+
+    .h-sm {
+        /*h4*/
+        @apply text-base;
+    }
+}
+
+@media (min-width: 768px) {
+    .h-xlg {
+        /*h1*/
+        @apply text-3xl;
+    }
+
+    .h-lg {
+        /*h2*/
+        @apply text-2xl;
+    }
+
+    .h-md {
+        /*h3*/
+        @apply text-2xl;
+    }
+
+    .h-sm {
+        /*h4*/
+        @apply text-lg;
+    }
+
+    .h-xsm {
+        /*h5*/
+        @apply text-base;
+    }
+}
+
+@media (min-width: 976px) {
+    .h-xlg {
+        /*h1*/
+        @apply text-5xl;
+    }
+
+    .h-lg {
+        /*h2*/
+        @apply text-4xl;
+    }
+
+    .h-md {
+        /*h3*/
+        @apply text-3xl;
+    }
+
+    .h-sm {
+        /*h4*/
+        @apply text-2xl;
+    }
+
+    .h-xsm {
+        /*h5*/
+        @apply text-lg;
+    }
+}
+
+.fade-in {
+    animation: fade-in 1s ease-in forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.fade-up {
+    animation: fade-up 1s ease-in forwards;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.fade-down {
+    animation: fade-down 1s ease-in forwards;
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+.scroll-left {
+    animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+    100% {
+        transform: translateX(-50%);
+    }
+}

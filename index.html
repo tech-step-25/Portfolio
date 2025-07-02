@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bashaer Alhuthali">
+    <meta name="description" content="Showcasing my skills, projects, and experience in web development and UI design">
+    <meta name="keywords" content="Portfolio">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/output.css" />
+    <link rel="icon" href="./asset/logo.png" />
+
+    <title>Bashaer Alhuthali</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex justify-between items-center w-full px-12 py-4 relative md:px-16">
+            <div class="logo fade-down"><a href="#"><img class="size-8 md:size-10 lg:size-12" src="./asset/logo.png"
+                        alt="logo" /></a></div>
+            <ul class="links hidden flex-col justify-center items-center gap-6 w-full p-8 absolute top-full left-0 z-10 bg-white uppercase font-bold text-sm fade-down md:flex md:flex-row md:w-fit md:p-0 md:static"
+                id="links">
+                <li class="hover:scale-105"><a href="#skills">skills</a></li>
+                <li class="hover:scale-105"><a href="#education">education</a></li>
+                <li class="hover:scale-105"><a href="#projects">projects</a></li>
+                <li class="hover:scale-105"><a href="#experience">experience</a></li>
+            </ul>
+            <div class="bar-icon fade-down md:hidden"><button aria-expanded="false" aria-controls="links"><img
+                        class="size-6" src="./asset/bars.svg" alt="bar-icon" /></button></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero flex flex-col justify-center items-center h-[75lvh] px-4 py-4 mb-32">
+            <div class="heading text-center py-14 fade-up">
+                <h1 class="h-xlg text-secondary font-light md:leading-12 lg:leading-18">
+                    I’m Bashaer Alhuthali, <br /> specializing in <span class="font-bold text-primary">web
+                        development</span> <br />
+                    and <span class="font-bold text-primary">UI Design</span>
+                </h1>
+            </div>
+            <div class="button fade-in">
+                <a target="_blank" href="./asset/BashaerAlhuthali.pdf" download><button class="btn">download
+                        CV</button></a>
+            </div>
+        </section>
+        <section class="skills py-4 mb-32 overflow-x-hidden" id="skills">
+            <div class="heading px-12 py-14 fade-up md:px-16">
+                <h2 class="h-lg font-bold">
+                    <span class="font-light text-secondary">some of</span> skills <br /> that I have
+                </h2>
+            </div>
+            <ul class="slider flex justify-between items-center gap-16 fade-in scroll-left md:gap-36">
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0 md:size-8 lg:size-10" src="./asset/php.png"
+                        loading="lazy" title="PHP" alt="PHP-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0  md:size-8 lg:size-10" src="./asset/java.png"
+                        loading="lazy" title="Java" alt="Java-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0 md:size-8 lg:size-10"
+                        src="./asset/c-sharp.png" loading="lazy" title="C#" alt="C#-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0  md:size-8 lg:size-10" src="./asset/html.png"
+                        loading="lazy" title="HTML" alt="HTML-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0 md:size-8 lg:size-10" src="./asset/css.png"
+                        loading="lazy" title="CSS" alt="CSS-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 rounded-full filter grayscale hover:grayscale-0 md:size-8 lg:size-10"
+                        src="./asset/js.png" loading="lazy" title="JavaScript" alt="JavaScript-logo" />
+                </li>
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0 md:size-8 lg:size-10" src="./asset/php.png"
+                        loading="lazy" title="PHP" alt="PHP-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0  md:size-8 lg:size-10" src="./asset/java.png"
+                        loading="lazy" title="Java" alt="Java-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0 md:size-8 lg:size-10"
+                        src="./asset/c-sharp.png" loading="lazy" title="C#" alt="C#-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0  md:size-8 lg:size-10" src="./asset/html.png"
+                        loading="lazy" title="HTML" alt="HTML-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 filter grayscale hover:grayscale-0 md:size-8 lg:size-10" src="./asset/css.png"
+                        loading="lazy" title="CSS" alt="CSS-logo" />
+                </li>
+
+                <li
+                    class="flex justify-center items-center size-8 shrink-0 rounded-md bg-gray-light hover:scale-105 md:size-12 lg:size-16 md:rounded-lg lg:rounded-2xl">
+                    <img class="size-6 rounded-full filter grayscale hover:grayscale-0 md:size-8 lg:size-10"
+                        src="./asset/js.png" loading="lazy" title="JavaScript" alt="JavaScript-logo" />
+                </li>
+            </ul>
+        </section>
+
+        <section class="education px-12 py-4 mb-32 md:px-16" id="education">
+            <div class="heading text-center py-14 fade-up">
+                <h2 class="h-lg font-bold">
+                    My Learning Journey
+                </h2>
+            </div>
+            <ul class="content flex flex-col justify-center items-center gap-6">
+                <li
+                    class="w-full py-10 px-8 border-2 border-gray-dark rounded-2xl text-center fade-in hover:bg-gray-light md:text-start">
+                    <div class="flex flex-col justify-between items-center gap-4 py-4 md:flex-row">
+                        <h3 class="h-md font-bold capitalize">01 software development
+                            bootcamp</h3>
+                        <h3 class="h-md text-secondary font-light uppercase">sda</h3>
+                        <button class="btn show-icon" data-target="detail-1" aria-expanded="false"
+                            aria-controls="detail-1">see
+                            details</button>
+                    </div>
+                    <p class="hidden py-2 text-base text-secondary font-light capitalize md:text-lg lg:text-2xl"
+                        id="detail-1"><span class="inline-block size-1 rounded-full bg-secondary"></span> key concepts:
+                        c#, OOP, asp.net
+                        core, html, css, javaScript, react, git and github.</p>
+                </li>
+
+                <li
+                    class="w-full py-10 px-8 border-2 border-gray-dark rounded-2xl text-center fade-in hover:bg-gray-light md:text-start">
+                    <div class="flex flex-col justify-between items-center gap-4 py-4 md:flex-row">
+                        <h3 class="h-md font-bold capitalize">02 web development bootcamp
+                        </h3>
+                        <h3 class="h-md text-secondary font-light capitalize">tuwaiq academy
+                        </h3>
+                        <button class="btn show-icon" data-target="detail-2" aria-expanded="false"
+                            aria-controls="detail-2">see
+                            details</button>
+                    </div>
+                    <p class="hidden py-2 text-base text-secondary font-light capitalize md:text-lg lg:text-2xl"
+                        id="detail-2"><span class="inline-block size-1 rounded-full bg-secondary"></span> key concepts:
+                        java, OOP,
+                        spring boot, unit testing, and figma.</p>
+                </li>
+
+                <li
+                    class="w-full py-10 px-8 border-2 border-gray-dark rounded-2xl text-center fade-in hover:bg-gray-light md:text-start">
+                    <div class="flex flex-col justify-between items-center gap-4 py-4 md:flex-row">
+                        <h3 class="h-md font-bold capitalize">03 bachelor of computer science
+                        </h3>
+                        <h3 class="h-md text-secondary font-light uppercase">uqu</h3>
+                        <button class="btn show-icon" data-target="detail-3" aria-expanded="false"
+                            aria-controls="detail-3">see
+                            details</button>
+                    </div>
+                    <div class="hidden" id="detail-3">
+                        <p class="py-2 text-base text-secondary font-light uppercase md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> gpa: 3.87/4.</p>
+                        <p class="py-2 text-base text-secondary font-light capitalize md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> key concepts: computer
+                            programming, OOP, operating systems, database, computer networks, computer security,
+                            software engineering, web development, game
+                            development, and user interface design.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="projects px-12 py-4 mb-32 md:px-16" id="projects">
+            <div class="heading py-14">
+                <h2 class="h-lg font-light text-secondary fade-up">
+                    My latest <span class="font-bold text-primary">projects</span>
+                </h2>
+            </div>
+            <ul class="content flex flex-col justify-center items-center gap-18">
+                <li class="flex flex-col justify-between items-center gap-4 fade-up md:flex-row">
+                    <div class="md:w-1/2">
+                        <img class="rounded-3xl" src="./asset/ToDoApp.png" loading="lazy" alt="To-Do-app-img" />
+                    </div>
+                    <div class="flex flex-col justify-end gap-6 md:w-1/2">
+                        <div>
+                            <h3 class="h-md font-bold capitalize">To-Do List App</h3>
+                            <h4 class="h-sm text-secondary font-light uppercase">web app</h4>
+                        </div>
+                        <p class="py-2 text-base text-primary font-bold md:text-lg lg:text-2xl">
+                            <span class="font-light text-secondary">A task management app that provides full CRUD
+                                functionality,</span> allowing users to
+                            add new tasks, update existing ones,
+                            delete tasks, mark them as completed, and organize them into groups.
+                        </p>
+                        <a target="_blank" href="https://to-do-list-app25.netlify.app/">
+                            <button class="btn show-icon w-fit">view
+                                work</button>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="flex flex-col justify-between items-center gap-4 fade-up md:flex-row-reverse">
+                    <div class="md:w-1/2">
+                        <img class="rounded-3xl" src="./asset/LandingPage.png" loading="lazy" alt="Landing-Page-img" />
+                    </div>
+                    <div class="flex flex-col justify-end gap-6 md:w-1/2">
+                        <div>
+                            <h3 class="h-md font-bold capitalize">landing page</h3>
+                            <h4 class="h-sm text-secondary font-light uppercase">web app</h4>
+                        </div>
+                        <p class="py-2 text-base text-primary font-bold md:text-lg lg:text-2xl">
+                            <span class="font-light text-secondary">A fully responsive landing page that consists
+                                of</span>
+                            a navigation bar, hero banner, products showcase, customer testimonials, newsletter
+                            subscription form, and footer.
+                        </p>
+                        <a target="_blank" href="https://planty-landing-page.netlify.app/">
+                            <button class="btn show-icon w-fit">view
+                                work</button>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="experience py-4 mb-32" id="experience">
+            <div class="heading text-center py-14 fade-up">
+                <h2 class="h-lg font-light text-secondary">
+                    what I’ve <span class="font-bold text-primary">worked on</span>
+                </h2>
+            </div>
+            <ul class="content flex flex-col justify-center gap-18 py-12 bg-gray-light">
+                <li class="flex flex-col justify-center gap-4 px-12 fade-in md:px-16">
+                    <div class="flex flex-col justify-between md:items-center md:flex-row">
+                        <h3 class="h-md font-bold capitalize">Content Creator</h3>
+                        <h3 class="h-md font-bold capitalize">May 2025 - present</h3>
+                    </div>
+                    <h5 class="h-xsm font-bold uppercase">youtube platform</h5>
+                    <ul class="py-2">
+                        <li class="font-light text-base text-secondary md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> Created clear,
+                            step-by-step tutorials on software development concepts, tailored for beginners.</li>
+                        <li class="font-light text-base text-secondary md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> Focused on real-world
+                            applications to enhance practical and problem-solving skills.</li>
+                    </ul>
+                </li>
+                <li class="px-12 md:px-16">
+                    <hr class="text-gray-dark">
+                </li>
+                <li class="flex flex-col justify-center gap-4 px-12 fade-in md:px-16">
+                    <div class="flex flex-col justify-between md:items-center md:flex-row">
+                        <h3 class="h-md font-bold capitalize">Web Developer Intern</h3>
+                        <h3 class="h-md font-bold capitalize">Jun 2022 - Aug 2022</h3>
+                    </div>
+                    <h5 class="h-xsm font-bold uppercase">Esnnad Company</h5>
+                    <ul class="py-2">
+                        <li class="font-light text-base text-secondary md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> Developed dynamic web
+                            applications using PHP and Laravel.</li>
+                        <li class="font-light text-base text-secondary md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> Designed and optimized
+                            MySQL databases, implementing efficient data models.</li>
+                        <li class="font-light text-base text-secondary md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> Collaborated with a
+                            4-member team, managing workflows and ensuring project requirements were met.</li>
+                        <li class="font-light text-base text-secondary md:text-lg lg:text-2xl"><span
+                                class="inline-block size-1 rounded-full bg-secondary"></span> Created detailed
+                            flowcharts and ER diagrams to visualize system architecture and data relationships.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="projects px-12 py-4 mb-32 md:px-16" id="other-projects">
+            <div class="heading py-14 fade-up">
+                <h2 class="h-lg font-light text-secondary">
+                    My other <span class="font-bold text-primary">projects</span>
+                </h2>
+            </div>
+            <div class="content grid grid-cols-1 justify-between items-center gap-18 md:grid-cols-2 ">
+                <div class="p-2 border-2 border-gray-dark rounded-3xl fade-up hover:translate-y-1.5">
+                    <img class="w-full rounded-3xl" src="./asset/HiringPlatform.png" loading="lazy"
+                        alt="Hiring-Platform-img" />
+                    <div class="flex flex-col justify-between gap-4 p-4">
+                        <div>
+                            <h4 class="h-sm font-bold capitalize">Hiring Platform</h4>
+                            <h5 class="h-xsm text-secondary font-light uppercase">Restful APIs
+                            </h5>
+                        </div>
+                        <p class="py-2 text-sm text-secondary font-light md:text-base lg:text-lg">
+                            A hiring platform that assists students find part-time jobs while allowing companies to post
+                            job opportunities.
+                        </p>
+                        <a target="_blank" href="https://documenter.getpostman.com/view/28987531/2s9YC2zDDy">
+                            <button class="btn show-icon w-fit">view
+                                work</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-2 border-2 border-gray-dark rounded-3xl fade-up hover:translate-y-1.5">
+                    <img class="w-full rounded-3xl" src="./asset/EducationalGame.png" loading="lazy"
+                        alt="Educational-Game-App-img" />
+                    <div class="flex flex-col justify-between gap-4 p-4">
+                        <div>
+                            <h4 class="h-sm font-bold capitalize">Educational Game App</h4>
+                            <h5 class="h-xsm text-secondary font-light uppercase">Tablet App
+                            </h5>
+                        </div>
+                        <p class="py-2 text-sm text-secondary font-light md:text-base lg:text-lg">
+                            An educational app that helps autistic children improve their cognitive skills through fun
+                            games, guided by a friendly
+                            virtual actor.
+                        </p>
+                        <a target="_blank" href="#">
+                            <button class="btn show-icon w-fit">view
+                                work</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-2 border-2 border-gray-dark rounded-3xl fade-up hover:translate-y-1.5">
+                    <img class="w-full rounded-3xl" src="./asset/PetWebsite.png" loading="lazy" alt="Pet-Website-img" />
+                    <div class="flex flex-col justify-between gap-4 p-4">
+                        <div>
+                            <h4 class="h-sm font-bold capitalize">Pet Adoption Website</h4>
+                            <h5 class="h-xsm text-secondary font-light uppercase">UI Design</h5>
+                        </div>
+                        <p class="py-2 text-sm text-secondary font-light md:text-base lg:text-lg">
+                            A user-friendly pet adoption website that connects animals looking for homes with people who
+                            want to adopt.
+                        </p>
+                        <a target="_blank"
+                            href="https://www.figma.com/proto/Q97nn4lMRqtrAswtP5j85x/Bird-adoptions.?node-id=1-2&p=f&t=2rMA1dc8DHB1Yufn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1">
+                            <button class="btn show-icon w-fit">view
+                                work</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-2 border-2 border-gray-dark rounded-3xl fade-up hover:translate-y-1.5">
+                    <img class="w-full rounded-3xl" src="./asset/RXApp.png" loading="lazy" alt="RX-App-img" />
+                    <div class="flex flex-col justify-between gap-4 p-4">
+                        <div>
+                            <h4 class="h-sm font-bold capitalize">Prescription App</h4>
+                            <h5 class="h-xsm text-secondary font-light uppercase">UI Design</h5>
+                        </div>
+                        <p class="py-2 text-sm text-secondary font-light md:text-base lg:text-lg">
+                            A secure and user-friendly app that allows patients store, manage, and track their medical
+                            prescriptions digitally.
+                        </p>
+                        <a target="_blank" href="#">
+                            <button class="btn show-icon w-fit">view
+                                work</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer flex flex-col justify-center items-center gap-8 px-12 py-4 md:px-16">
+            <div class="heading text-center py-6 fade-down">
+                <h1 class="h-xlg font-bold">Get in Touch.</h1>
+                <h4 class="h-sm text-secondary font-light capitalize">Feel free to
+                    contact me</h4>
+            </div>
+            <ul class="links flex justify-between items-center gap-10 fade-in">
+                <li class="opacity-85 hover:scale-105"><a target="_blank"
+                        href="mailto:bashaeralhuthali@outlook.com"><img class="size-4 lg:size-6" src="./asset/email.png"
+                            loading="lazy" alt="email-icon" /></a></li>
+                <li class="opacity-85 hover:scale-105"><a target="_blank" href="https://github.com/bashaer310"><img
+                            class="size-4 lg:size-6" src="./asset/github.png" loading="lazy" alt="github-icon" /></a>
+                </li>
+                <li class="opacity-85 hover:scale-105"><a target="_blank"
+                        href="https://dribbble.com/bashaeralhuthali"><img class="size-4 lg:size-6"
+                            src="./asset/dribbble.png" loading="lazy" alt="dribbble-icon" /></a></li>
+                <li class="opacity-85 hover:scale-105"><a target="_blank"
+                        href="https://www.linkedin.com/in/bashaer-a-036721316/"><img class="size-4 lg:size-6"
+                            src="./asset/linkedin.png" loading="lazy" alt="linkedin-icon" /></a></li>
+            </ul>
+            <hr class="w-full text-gray-dark fade-in">
+            <p
+                class="copy-right text-center text-sm text-secondary font-light capitalize fade-up md:text-base lg:text-lg">
+                &copy; 2025, developed by <span class="text-primary font-bold">Bashaer Alhuthali</span></p>
+        </nav>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
