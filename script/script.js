@@ -9,11 +9,11 @@ barIcon.addEventListener("click", () => {
   if (window.innerWidth < 768) {
     links.classList.toggle("flex");
     links.classList.toggle("hidden");
-  }
-  barIcon.setAttribute(
+     barIcon.setAttribute(
     "aria-expanded",
     barIcon.getAttribute("aria-expanded") == "false" ? "true" : "false"
   );
+  }
 });
 
 showIcons.forEach((element) => {
@@ -22,11 +22,11 @@ showIcons.forEach((element) => {
     const target = document.getElementById(targetId);
     if (target) {
       target.classList.toggle("hidden");
-    }
-    element.setAttribute(
+        element.setAttribute(
       "aria-expanded",
       element.getAttribute("aria-expanded") == "false" ? "true" : "false"
     );
+    }
   });
 });
 
